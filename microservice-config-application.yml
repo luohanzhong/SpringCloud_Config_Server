@@ -30,6 +30,11 @@ eureka:
   instance:
     instanceId: ${spring.application.name}:${server.port}
     prefer-ip-address: true 
+
+emp: 
+  name: zhangsan
+  password: '{cipher}AQDGJxF6MXoamaQm94qwt/mxtzMZRBuI6CK89ShOUJ8vq43sZK0KqiYW4vvv4GX2xjr00xlPEV5vLNxwwGIn8AGt9PDpBDzCk0tClDIRpSY8hd9xIMfxKn9j/pjsnOTPE9AIDkbedohbsoBkE7KKTAe0ARaKSDJoMdMCDl0SGs66JzP78+8zPdjx5lf5zeplwGFXFE9K9Mb/DJSsciF+zRPaY+udf+xT5nWluo6QukB2KqZUh7PFTjRJzDDkKug+bL/C+/+2Elv3pTrboqfzvW6bQcx92BpWWmgyXjhNCUHOcc2rm8uOQ2obhRFsfe++W1Rc0hHw902ar9RHfKGrFWC5OLwgI8Ya69dcKhA/Yf0zMsGutwhyf4nZixPYOic7/3E='
+
 ---
 server:
   port: 8080
